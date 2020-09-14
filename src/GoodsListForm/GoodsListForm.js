@@ -78,7 +78,7 @@ export default class GoodsListForm extends Component {
 GoodsListForm.defaultProps = {
     good: {},
     title: '',
-    weight: '',
+    weight: 0,
     description: '',
     category: '',
     active: false
